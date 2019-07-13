@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Landing Page</title>
+    <link href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!--     <link rel="stylesheet" type="text/css" href="css/theme.css"></link> 
+    <script type="text/javascript" src="js/myscripts.js"></script>  -->
+</head>
+<body>
+	<div class="container">
+		<h1> </h1>
+	</div>
+	
+	<div class="container">
+		<div class="jumbotron well">
+			<p th:text="'Hello! ' + ${name} " />
+		</div>
+    </div>
+</body>
+</html>

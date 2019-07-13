@@ -1,0 +1,5 @@
+server:
+  servlet:
+    context-path: /abc
+welcome:
+  message: Hello Work
